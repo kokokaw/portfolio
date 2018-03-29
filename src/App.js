@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Header from './Header';
+import Aboutme from './Aboutme';
 
 class App extends Component {
   constructor(props) {
@@ -12,8 +13,7 @@ class App extends Component {
     return (
       <div className="App">
           <Header /> 
-
-          dfadsfadfadsf 
+          <Aboutme />
       </div>
     );
   }
